@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fffaf5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #5c4033;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffce9e;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085') center/cover no-repeat;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #ffce9e;
+  color: #5c4033;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ffd9b3;
+}
+
+/* Menu Section */
+.menu {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.item {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.item h3 {
+  margin-top: 10px;
+  color: #5c4033;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #5c4033;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 50px;
+}
